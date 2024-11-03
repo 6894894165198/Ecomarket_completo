@@ -1,0 +1,64 @@
+#formulario {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #23431b;
+    box-shadow: 0 2px 100px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    color: #555;
+}
+
+input[type="email"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    width: 48%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+button[type="button"] {
+    background-color: #4CAF50;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+}
+
+#resultado {
+    display: none;
+    background-color: lightgreen;
+    padding: 10px;
+    border: 2px solid green;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
